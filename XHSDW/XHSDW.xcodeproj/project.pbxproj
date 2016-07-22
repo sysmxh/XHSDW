@@ -13,6 +13,7 @@
 		188845761D42E5020013DE4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188845741D42E5020013DE4C /* Main.storyboard */; };
 		188845781D42E5020013DE4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188845771D42E5020013DE4C /* Assets.xcassets */; };
 		1888457B1D42E5020013DE4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188845791D42E5020013DE4C /* LaunchScreen.storyboard */; };
+		188845851D42E59F0013DE4C /* SDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188845841D42E59F0013DE4C /* SDViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		188845771D42E5020013DE4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1888457A1D42E5020013DE4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1888457C1D42E5020013DE4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188845831D42E59F0013DE4C /* SDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDViewController.h; sourceTree = "<group>"; };
+		188845841D42E59F0013DE4C /* SDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		1888456A1D42E5010013DE4C /* XHSDW */ = {
 			isa = PBXGroup;
 			children = (
+				188845821D42E58C0013DE4C /* SDW */,
 				1888456E1D42E5010013DE4C /* AppDelegate.h */,
 				1888456F1D42E5010013DE4C /* AppDelegate.m */,
 				188845711D42E5010013DE4C /* ViewController.h */,
@@ -77,6 +81,15 @@
 				1888456C1D42E5010013DE4C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		188845821D42E58C0013DE4C /* SDW */ = {
+			isa = PBXGroup;
+			children = (
+				188845831D42E59F0013DE4C /* SDViewController.h */,
+				188845841D42E59F0013DE4C /* SDViewController.m */,
+			);
+			path = SDW;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 				188845731D42E5010013DE4C /* ViewController.m in Sources */,
 				188845701D42E5010013DE4C /* AppDelegate.m in Sources */,
 				1888456D1D42E5010013DE4C /* main.m in Sources */,
+				188845851D42E59F0013DE4C /* SDViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
